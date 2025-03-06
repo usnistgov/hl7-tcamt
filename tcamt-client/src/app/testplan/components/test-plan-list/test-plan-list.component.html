@@ -1,0 +1,7 @@
+<dam-list-widget [list]="testPlanList" [controls]="controls" [sortOptions]="sortOptions" [links]="linkTabs"
+  title="Test Plan  List" [sort]="sort" [showFilterText]="true" [showSort]="true">
+  <ng-template #content>
+  </ng-template>
+  <ng-template #listItem let-item> {{ item.data.name }} </ng-template>
+
+</dam-list-widget>
